@@ -1,40 +1,25 @@
 package socialnetwork;
 
-import javax.swing.*;
 import java.io.*;
 import java.util.*;
 
 public class SocialNetworkAnalysis {
 
     public static void main(String[] args) {
-        // Create a JFileChooser instance
-        JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Select a Graph File");
-
-        // Show the Open dialog and check if the user approved the selection
-        int result = fileChooser.showOpenDialog(null);
-        if (result != JFileChooser.APPROVE_OPTION) {
-            System.out.println("File selection canceled.");
-            return; // Exit if no file was chosen
-        }
-
-        // Get the selected file
-        File selectedFile = fileChooser.getSelectedFile();
-        String fileName = selectedFile.getAbsolutePath();
-        
-        // Proceed with graph reading and analysis
+        String fileName = "modified_facebook_disjoint_communities.txt";
         Graph graph = readGraphFromFile(fileName);
-
+        
         System.out.println("Graph:");
         graph.printGraph();
-
+        
         System.out.println("\nTotal number of communities:");
         int componentCount = findConnectedComponents(graph);
         System.out.println(componentCount);
-
-        int source = 0;
-        int target = 4;
+        
+        int source = 0; 
+        int target = 4; 
         BreadthFirstSearch bfs = new BreadthFirstSearch(graph, source);
+        
     }
 
     private static Graph readGraphFromFile(String fileName) {
@@ -58,7 +43,7 @@ public class SocialNetworkAnalysis {
     private static int findConnectedComponents(Graph graph) {
         boolean[] visited = new boolean[graph.getV()];
         int count = 0;
-
+        
         for (int v = 0; v < graph.getV(); v++) {
             if (!visited[v]) {
                 dfs(graph, v, visited);
@@ -77,4 +62,3 @@ public class SocialNetworkAnalysis {
         }
     }
 }
-
