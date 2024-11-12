@@ -35,6 +35,11 @@ Clone this Git repository to your local machine.
 git clone https://github.com/your-username/social-network-analysis-tool.git](https://github.com/Prathameshworks247/SocialNetworkAnalysis.git
 cd SocialNetworkAnalysis
 ```
+### How to use:
+- Open the cloned project in Eclipse.
+- Navigate to SocialNetworkAnalysis.java
+- Run the file as a Java Application
+  
 ### Real-World Applications
 This tool can be used in various domains:
 
