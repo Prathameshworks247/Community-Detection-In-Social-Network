@@ -1,5 +1,10 @@
 # SocialNetworkAnalysis
 
+MEMBERS: 
+Prathamesh Patil (23BDS043)
+Vishawjeet Yadav (23BDS069)
+Om Pandey (23BDS040)
+
 This project is a **Social Network Analysis Tool** that detects communities within a social network. It utilizes depth-first search (DFS), breadth-first search (BFS), and connected components algorithms to analyze relationships in a network. The tool can be applied to various real-world datasets, including social media interactions, email communications, and other collaborative networks, to understand how individuals are grouped within communities.
 
 ## Table of Contents
