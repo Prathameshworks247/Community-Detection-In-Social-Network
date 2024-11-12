@@ -1,4 +1,4 @@
-# SocialNetworkAnalysis
+# Community Detection in Social Networks
 
 ### MEMBERS: 
 - Prathamesh Patil (23BDS043)
