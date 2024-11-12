@@ -11,7 +11,10 @@ This project is a **Social Network Analysis Tool** that detects communities with
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Example Dataset](#example-dataset)
+- [How To Use](#how-to-use)
+- [Real-World Applications](#real-world-applications)
+- [Example Dataset](#dataset)
+  
 
 ---
 
@@ -40,7 +43,7 @@ cd SocialNetworkAnalysis
 - Navigate to SocialNetworkAnalysis.java
 - Run the file as a Java Application
   
-### Real-World Applications
+### Real World Applications
 This tool can be used in various domains:
 
 Social Media Analysis: Detect friend groups or interest-based communities.
