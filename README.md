@@ -35,8 +35,8 @@ This project is a **Social Network Analysis Tool** that detects communities with
 Clone this Git repository to your local machine.
 
 ```bash
-git clone https://github.com/your-username/social-network-analysis-tool.git](https://github.com/Prathameshworks247/SocialNetworkAnalysis.git
-cd SocialNetworkAnalysis
+git clone https://github.com/Prathameshworks247/Community-Detection-In-Social-Network.git
+cd Community-Detection-In-Social-Network
 ```
 ### How to use:
 - Open the cloned project in Eclipse.
